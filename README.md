@@ -36,7 +36,7 @@ If you want to run the application locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/paulhehehe/Loan_Eligibility_Model_Solution.git
-   cd credit_eligibility_application
+   cd Loan_Eligibility_Model_Solution
 
 2. Create and activate a virtual environment:
    ```bash
