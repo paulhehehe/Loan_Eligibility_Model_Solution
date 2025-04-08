@@ -1,10 +1,17 @@
 # Loan_eligibility_application
+This app has been built using Streamlit and deployed with Streamlit community cloud
+
+[Visit the app here](https://loaneligibilitymodelsolution.streamlit.app/)
+
+password - streamlit
+
 This application predicts whether someone is eligible for a loan based on inputs derived from the Credit dataset. The model aims to help users assess loan eligibility by leveraging machine learning predictions.
 
 ## Features
 - User-friendly interface powered by Streamlit.
 - Input form to enter details such as credit history, loan amount, income, and other relevant factors.
 - Real-time prediction of loan eligibility based on the trained model.
+- Accessible via Streamlit Community Cloud.
 
 ## Dataset
 The application is trained on the **Credit dataset**, a widely used dataset for evaluating creditworthiness. It includes features like:
@@ -37,18 +44,23 @@ If you want to run the application locally, follow these steps:
    ```bash
    git clone https://github.com/paulhehehe/Loan_Eligibility_Model_Solution.git
    cd Loan_Eligibility_Model_Solution
+   ```
 
 2. Create and activate a virtual environment:
    ```bash
    python -m venv env
-   source env/bin/activate  # On Windows, use `env\\Scripts\\activate`
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
+   ```
 
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
 
 4. Run the Streamlit application:
    ```bash
    streamlit run app.py
+   ```
 
 #### Thank you for using the Loan Eligibility Application! Feel free to share your feedback.
+
